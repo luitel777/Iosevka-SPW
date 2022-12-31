@@ -1,0 +1,47 @@
+[buildPlans.iosevka-spw]
+family = "Iosevka_SPW"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+no-ligation = true
+
+  [buildPlans.iosevka-spw.variants]
+  inherits = "ss14"
+
+    [buildPlans.iosevka-spw.variants.design]
+    capital-a = "curly-serifless"
+    capital-b = "more-asymmetric-serifless"
+    capital-c = "unilateral-serifed"
+    capital-d = "more-rounded-serifless"
+    capital-e = "top-left-serifed"
+    capital-f = "top-left-serifed"
+    capital-g = "toothed-serifless-capped"
+    capital-h = "top-left-serifed"
+    capital-i = "serifed"
+    capital-j = "serifed"
+    capital-k = "straight-top-left-serifed"
+    capital-l = "motion-serifed"
+    capital-m = "hanging"
+    capital-n = "standard"
+    capital-p = "closed"
+    capital-r = "curly-open"
+    capital-s = "unilateral-serifed"
+    capital-t = "serifless"
+    capital-u = "toothless-corner-unilateral-motion-serifed"
+    capital-v = "curly"
+    capital-w = "curly"
+    capital-x = "curly-serifless"
+    capital-y = "curly-serifless"
+    capital-z = "curly-serifed"
+    e = "rounded"
+    k = "cursive-bottom-right-serifed"
+    v = "curly-motion-serifed"
+    w = "curly"
+    y = "curly"
+    lower-alpha = "crossing"
+    lower-delta = "flat-top"
+    cyrl-el = "tailed"
+    zero = "reverse-slashed"
+    one = "no-base"
+    lig-ltgteq = "flat"
