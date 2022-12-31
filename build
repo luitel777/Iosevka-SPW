@@ -1,0 +1,13 @@
+#!/bin/sh
+
+git clone --depth 1 https://github.com/be5invis/Iosevka.git
+cp private-build-plans.toml Iosevka
+cd Iosevka
+npm install
+npm run build -- contents::iosevka-spw
+
+# FIXME: I have not checked the folder name
+# This is assumption. dist/something
+# I will check what folder it creates when I
+# build this again sometime in future
+mv dist/iosevka-spw ../.
